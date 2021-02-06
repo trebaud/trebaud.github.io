@@ -1,0 +1,47 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+paginate = 5
+theme = "hugo-ink"
+title = "My blog"
+
+[params]
+subtitle = "Crisp, minimal personal [blog theme for Hugo](https://github.com/knadh/hugo-ink)"
+
+# Optional 64x64 avatar image.
+avatar = "https://avatars2.githubusercontent.com/u/8050949?s=400&v=4"
+
+# Content types to disable Disqus on.
+
+disableDisqusTypes = ["page"]
+featherIconsCDN = true
+
+mode = "auto" # "dark" or "auto"
+
+# Nav.
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4
+
+[[params.social]]
+icon = "github"
+name = "Github"
+url = "https://github.com/trebaud"
+
+[taxonomies]
+tag = "tags"
