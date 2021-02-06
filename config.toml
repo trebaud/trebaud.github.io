@@ -1,47 +1,67 @@
-baseURL = "http://example.org/"
+baseURL = "https://trebaud.github.io/"
 languageCode = "en-us"
 paginate = 5
-theme = "hugo-ink"
-title = "My blog"
+tags = ["development", "software", "neovim", "security"]
+theme = "hello-friend-trebaud"
+title = "trebaud"
+
+googleAnalytics = "G-4BDVPG70H1"
 
 [params]
-subtitle = "Crisp, minimal personal [blog theme for Hugo](https://github.com/knadh/hugo-ink)"
+    description = "My blog"
+    keywords = ""
+    images = [""]
 
-# Optional 64x64 avatar image.
-avatar = "https://avatars2.githubusercontent.com/u/8050949?s=400&v=4"
+    showMenuItems = 2
+    
+    showReadingTime = true
+    
+    homeSubtitle = "A collection of loosely coupled ramblings about tech, coding and life." 
+    
+    disableReadOtherPosts = false
+    enableThemeToggle = true
+    enableSharingButtons = true
+    enableComments = true
+    missingContentMessage = "??"
 
-# Content types to disable Disqus on.
+[params.utterances]
+    owner = "trebaud"
+    repo = "trebaud.github.io"
 
-disableDisqusTypes = ["page"]
-featherIconsCDN = true
-
-mode = "auto" # "dark" or "auto"
-
-# Nav.
-[[menu.main]]
-name = "Home"
-url = "/"
-weight = 1
-
-[[menu.main]]
-name = "All posts"
-url = "/posts"
-weight = 2
-
-[[menu.main]]
-name = "About"
-url = "/about"
-weight = 3
-
-[[menu.main]]
-name = "Tags"
-url = "/tags"
-weight = 4
+[params.logo]
+    logoMark     = ">"
+    logoText     = "$ cd /home/trebaud"
+    logoHomeLink = "/"
 
 [[params.social]]
-icon = "github"
-name = "Github"
-url = "https://github.com/trebaud"
+    name = "github"
+    url = "https://github.com/trebaud"
+
+[[params.social]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/thomas-rebaud-8017a168/"
 
 [taxonomies]
-tag = "tags"
+    tag = "tags"
+    category = "categories"
+
+[menu]
+    [[menu.main]]
+    name = "cd ~/posts"
+    url = "/posts"
+    weight = 2
+
+    [[menu.main]]
+    name = "whoami"
+    url = "/whoami"
+    weight = 3
+    
+    [[menu.main]]
+    name = "🔍 tags"
+    url = "/tags"
+    weight = 4
+    
+    [[menu.main]]
+    name = "🎸 guitar"
+    url = "/neck-visualizer"
+    weight = 5
