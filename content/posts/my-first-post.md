@@ -6,3 +6,11 @@ draft: true
 ---
 
 ## Hello
+
+```jsx
+import React from "react";
+
+const App = () => <div class="app"></div>;
+
+export default App;
+```
