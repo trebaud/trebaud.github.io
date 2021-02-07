@@ -1,40 +1,39 @@
-baseURL = "http://example.org/"
+baseURL = "https://trebaud.github.io/"
 languageCode = "en-us"
 paginate = 5
+tags = ["development", "python", "neovim"]
 theme = "hugo-ink"
-title = "My blog"
+title = "Yet another tech blog"
+
+pygmentesUseClasses = false
+pygmentsCodeFences = true
+pygmentsStyle = "monokailight"
 
 [params]
-subtitle = "Crisp, minimal personal [blog theme for Hugo](https://github.com/knadh/hugo-ink)"
-
-# Optional 64x64 avatar image.
-avatar = "https://avatars2.githubusercontent.com/u/8050949?s=400&v=4"
-
-# Content types to disable Disqus on.
-
-disableDisqusTypes = ["page"]
-featherIconsCDN = true
-
+avatar = "https://avatars2.githubusercontent.com/u/8050949?s=400&v=4" 
+disableDisqusTypes = ["page"] 
+featherIconsCDN = true 
 mode = "auto" # "dark" or "auto"
+subtitle = "A collection of loosely coupled ramblings about tech, coding and life." 
 
 # Nav.
 [[menu.main]]
-name = "Home"
+name = "🏠 Home"
 url = "/"
 weight = 1
 
 [[menu.main]]
-name = "All posts"
+name = "📝 All posts"
 url = "/posts"
 weight = 2
 
 [[menu.main]]
-name = "About"
+name = "👨‍💻 About"
 url = "/about"
 weight = 3
 
 [[menu.main]]
-name = "Tags"
+name = "🔍 Tags"
 url = "/tags"
 weight = 4
 
@@ -42,6 +41,11 @@ weight = 4
 icon = "github"
 name = "Github"
 url = "https://github.com/trebaud"
+
+[[params.social]]
+icon = "linkedin"
+name = "Linkedin"
+url = "https://www.linkedin.com/in/thomas-rebaud-8017a168/"
 
 [taxonomies]
 tag = "tags"

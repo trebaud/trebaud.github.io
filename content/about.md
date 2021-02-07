@@ -1,7 +1,5 @@
 ---
-title: "About"
-date: 2021-02-06T21:37:58+05:30
 type: "page"
 ---
 
-This is some static page where you can write about yourself.
+I am a software developer currently based in Montreal. I like to ship code for the web in a secure and reliable way.
