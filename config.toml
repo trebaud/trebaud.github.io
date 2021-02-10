@@ -5,9 +5,8 @@ tags = ["development", "python", "neovim"]
 theme = "hugo-ink"
 title = "Yet another tech blog"
 
-pygmentesUseClasses = false
 pygmentsCodeFences = true
-pygmentsStyle = "monokailight"
+pygmentsStyle = "colorful"
 
 [params]
 avatar = "https://avatars2.githubusercontent.com/u/8050949?s=400&v=4" 
