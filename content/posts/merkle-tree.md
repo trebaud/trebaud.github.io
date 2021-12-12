@@ -3,7 +3,7 @@ title: "Implementing a Merkle tree in Python"
 description: "Build a Merkle tree in Python"
 draft: false
 date: 2018-01-06T00:00:00-05:00
-tags: [development]
+tags: [development, bitcoin]
 ---
 
 Unless you've been living under a rock for the past few years you have probably heard of Bitcoin, the decentralized, peer-to-peer, public, trustless, cash system protocol. Regardless of whether or not you think bitcoin's current valuation is in a bubble or worse that it's a Ponzi scheme, it's undeniable that the protocol solves a real and old problem in distributed computing, a.k.a the [Byzantine's General Problem](https://en.wikipedia.org/wiki/Byzantine_fault_tolerance#Byzantine_Generals'_Problem). One of the underlying data structures ensuring the immutability of the blockchain is the Merkle tree.
