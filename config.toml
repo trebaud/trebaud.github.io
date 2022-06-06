@@ -36,6 +36,11 @@ name = "🔍 Tags"
 url = "/tags"
 weight = 4
 
+[[menu.main]]
+name = "🎸"
+url = "/neck-visualizer"
+weight = 4
+
 [[params.social]]
 icon = "github"
 name = "Github"
