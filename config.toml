@@ -2,54 +2,69 @@ baseURL = "https://trebaud.github.io/"
 languageCode = "en-us"
 paginate = 5
 tags = ["development", "python", "neovim"]
-theme = "hugo-ink"
-title = "Yet another tech blog"
+theme = "hello-friend-trebaud"
+title = "Yet Another Random Memoir"
 
-pygmentsCodeFences = true
-pygmentsStyle = "colorful"
+[params.utterances]
+owner = "trebaud"
+repo = "trebaud.github.io"
 
 [params]
-avatar = "https://avatars2.githubusercontent.com/u/8050949?s=400&v=4" 
-disableDisqusTypes = ["page"] 
-featherIconsCDN = true 
-mode = "auto" # "dark" or "auto"
-subtitle = "A collection of loosely coupled ramblings about tech, coding and life." 
+dateform        = "Jan 2, 2006"
+dateformShort   = "Jan 2"
+dateformNum     = "2006-01-02"
+dateformNumTime = "2006-01-02 15:04"
 
-# Nav.
-[[menu.main]]
-name = "🏠 Home"
-url = "/"
-weight = 1
+description = "My blog"
+keywords = ""
+images = [""]
 
-[[menu.main]]
-name = "📝 All posts"
-url = "/posts"
-weight = 2
+homeSubtitle = "A collection of loosely coupled ramblings about tech, coding and life." 
 
-[[menu.main]]
-name = "👨‍💻 About"
-url = "/about"
-weight = 3
+disableReadOtherPosts = false
+enableThemeToggle = true
+enableSharingButtons = true
+missingContentMessage = "??"
 
-[[menu.main]]
-name = "🔍 Tags"
-url = "/tags"
-weight = 4
-
-[[menu.main]]
-name = "🎸"
-url = "/neck-visualizer"
-weight = 5
+[params.logo]
+logoMark     = ">"
+logoText     = "$ cd /home/"
+logoHomeLink = "/"
 
 [[params.social]]
-icon = "github"
-name = "Github"
+name = "github"
 url = "https://github.com/trebaud"
 
 [[params.social]]
-icon = "linkedin"
-name = "Linkedin"
+name = "linkedin"
 url = "https://www.linkedin.com/in/thomas-rebaud-8017a168/"
 
 [taxonomies]
 tag = "tags"
+category = "categories"
+
+[menu]
+    [[menu.main]]
+    name = "🏠 Home"
+    url = "/"
+    weight = 1
+    
+    [[menu.main]]
+    name = "📝 All posts"
+    url = "/posts"
+    weight = 2
+    
+    [[menu.main]]
+    name = "👨‍💻 About"
+    url = "/about"
+    weight = 3
+    
+    [[menu.main]]
+    name = "🔍 Tags"
+    url = "/tags"
+    weight = 4
+    
+    [[menu.main]]
+    name = "🎸"
+    url = "/neck-visualizer"
+    weight = 5
