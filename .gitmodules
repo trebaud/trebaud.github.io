@@ -9,4 +9,4 @@
 	url = https://github.com/panr/hugo-theme-hello-friend.git
 [submodule "themes/hello-friend-trebaud"]
 	path = themes/hello-friend-trebaud
-	url = https://github.com/trebaud/hugo-theme-hello-friend.git
+	url = git@github.com:trebaud/hugo-theme-hello-friend.git

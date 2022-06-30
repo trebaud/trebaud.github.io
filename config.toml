@@ -5,10 +5,6 @@ tags = ["development", "python", "neovim"]
 theme = "hello-friend-trebaud"
 title = "Yet Another Random Memoir"
 
-[params.utterances]
-owner = "trebaud"
-repo = "trebaud.github.io"
-
 [params]
 dateform        = "Jan 2, 2006"
 dateformShort   = "Jan 2"
@@ -24,7 +20,12 @@ homeSubtitle = "A collection of loosely coupled ramblings about tech, coding and
 disableReadOtherPosts = false
 enableThemeToggle = true
 enableSharingButtons = true
+enableComments = true
 missingContentMessage = "??"
+
+[params.utterances]
+owner = "trebaud"
+repo = "trebaud.github.io"
 
 [params.logo]
 logoMark     = ">"
@@ -44,11 +45,6 @@ tag = "tags"
 category = "categories"
 
 [menu]
-    [[menu.main]]
-    name = "🏠 Home"
-    url = "/"
-    weight = 1
-    
     [[menu.main]]
     name = "📝 All posts"
     url = "/posts"
