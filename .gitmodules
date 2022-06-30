@@ -1,3 +1,4 @@
 [submodule "themes/hello-friend-trebaud"]
 	path = themes/hello-friend-trebaud
 	url = https://github.com/trebaud/hugo-theme-hello-friend.git
+	branch = master
