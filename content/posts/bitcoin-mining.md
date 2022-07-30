@@ -21,15 +21,15 @@ interface BlockHeader {
   nonce: number; // can be updated to generate a valid block hash
 }
 
-function hash(candidate: string) {
+function hash(candidate: string): string {
   return createHash("sha256").update(candidate).digest("hex");
 }
 
-function doubleHash(candidate: string) {
+function doubleHash(candidate: string): string {
   return hash(hash(candidate));
 }
 
-function getTargetFromBits(bits: number) {
+function getTargetFromBits(bits: number): number {
   const bitsInHex = bits.toString(16);
   const coeff = parseInt(bitsInHex.slice(2), 16);
   const index = parseInt(bitsInHex.slice(0, 2), 16);
@@ -38,15 +38,14 @@ function getTargetFromBits(bits: number) {
   // https://github.com/bitcoin/bitcoin/blob/8e3c266a4f02093d57d563f32ba73d3ab4b5f208/src/arith_uint256.cpp#L198
   if (index <= 3) {
     return coeff * 2 ** (8 * (3 - index));
-  } else {
-    return coeff * 2 ** (8 * (index - 3));
   }
+
+  return coeff * 2 ** (8 * (index - 3));
 }
 
-function isValidProof(hash, bits) {
-    const target = getTargetFromBits(bits);
-
-    return parseInt(hash, 16) =< target;
+function isValidProof(hash: string, bits: number): boolean {
+  const target = getTargetFromBits(bits);
+  return parseInt(hash, 16) =< target;
 }
 
 function mine() {
@@ -64,7 +63,11 @@ function mine() {
 
   // YAY you found a valid nonce, you can include it in your block as proof that you did the work
   blockHeader.nonce = nonce;
+
+  // ... other complicated things
 }
+
+mine()
 ```
 
 Why is this PoW process important and how is it related to the immutability of the blockchain?
