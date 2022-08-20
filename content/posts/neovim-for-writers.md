@@ -6,6 +6,8 @@ draft: false
 
 In this quick post I share how to optimize your Neovim setup for writing. Neovim is a great option for writers, it combines an ergonomic resting default position with powerful text manipulation capabilities.
 
+### Basic setup
+
 First let's install a good syntax highlighter that includes Markdown, I use `polyglot` which is pretty complete and works well.
 
 ```
