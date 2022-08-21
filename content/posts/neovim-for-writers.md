@@ -33,3 +33,5 @@ To activate this new "writing" mode simply type the following command in normal 
 ```
 
 That's it, with this setup you should be good to go!
+
+![](https://user-images.githubusercontent.com/8050949/185811620-04ca4de4-609a-4de7-851a-cf3abfb8fb47.png)
