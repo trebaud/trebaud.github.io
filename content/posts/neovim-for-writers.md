@@ -20,7 +20,7 @@ Next I use the `Goyo` plugin to get that minimalistic and distraction free look 
 Plug 'junegunn/goyo.vim'
 ```
 
-Last but not least let's install the very good `vim-pencil` plugin to manage line and word wraps to make neovim look like a real text editor.
+Next let's install the very good `vim-pencil` plugin to manage line and word wraps to make neovim look like a real text editor.
 
 ```
 Plug 'preservim/vim-pencil'
@@ -30,6 +30,12 @@ To activate this new "writing" mode simply type the following command in normal 
 
 ```
 `:Goyo | SoftPencil`
+```
+
+Last tip, be sure to set the native vim spell checker so you don't have to make any mistakes ever again.
+
+```
+:set spell
 ```
 
 That's it, with this setup you should be good to go!
