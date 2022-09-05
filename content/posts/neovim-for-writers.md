@@ -6,12 +6,16 @@ draft: false
 
 In this quick post I share how to optimize your Neovim setup for writing. Neovim is a great option for writers, it combines an ergonomic resting default position with powerful text manipulation capabilities.
 
-### Basic setup
-
 First let's install a good syntax highlighter that includes Markdown, I use `polyglot` which is pretty complete and works well.
 
 ```
 Plug 'sheerun/vim-polyglot'
+
+```
+Let's also install the Ranger plugin for file navigation. Note that you will need to install the `ranger` program also independently.
+
+```
+Plug 'francoiscabrol/ranger.vim'
 ```
 
 Next I use the `Goyo` plugin to get that minimalistic and distraction free look for a good writing experience.
@@ -38,6 +42,56 @@ Last tip, be sure to set the native vim spell checker so you don't have to make 
 :set spell
 ```
 
-That's it, with this setup you should be good to go!
+Putting it all together we can write our init.vim configuration file to start Neovim automatically in this "writer" mode. That's it, you can use this basic setup and improve on it with your own ideas.
+
+```vim
+"--------------------------------------------------------------------------
+" General settings
+"--------------------------------------------------------------------------
+set spell
+set termguicolors
+
+"--------------------------------------------------------------------------
+" Key mappings
+"--------------------------------------------------------------------------
+" Use Ctrl-c for copy 
+nmap <C-c> "+y
+vmap <C-c> "+y
+nmap <C-v> "+p
+inoremap <C-v> <c-r>+
+cnoremap <C-v> <c-r>+
+
+"--------------------------------------------------------------------------
+" Plugins
+"--------------------------------------------------------------------------
+" Automatically install vim-plug
+let data_dir = has('nvim') ? stdpath('data') . '/site' : '~/.vim'
+if empty(glob(data_dir . '/autoload/plug.vim'))
+  silent execute '!curl -fLo '.data_dir.'/autoload/plug.vim --create-dirs  https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+    autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+    endif
+
+call plug#begin(data_dir . '/plugins')
+
+    Plug 'sheerun/vim-polyglot'
+    Plug 'junegunn/goyo.vim'
+    Plug 'preservim/vim-pencil'
+    Plug 'iamcco/markdown-preview.vim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
+    Plug 'francoiscabrol/ranger.vim'
+    Plug 'rbgrouleff/bclose.vim'
+    Plug 'sainnhe/sonokai'
+
+call plug#end()
+doautocmd User PlugLoaded
+
+" set colorscheme
+color sonokai
+
+let g:vim_markdown_new_list_item_indent = 0
+
+nnoremap <C-p> :Ranger<CR>
+
+autocmd VimEnter * Goyo|SoftPencil
+```
 
 ![](https://user-images.githubusercontent.com/8050949/185811620-04ca4de4-609a-4de7-851a-cf3abfb8fb47.png)
