@@ -12,10 +12,12 @@ First let's install a good syntax highlighter that includes Markdown, I use `pol
 Plug 'sheerun/vim-polyglot'
 
 ```
-Let's also install the Ranger plugin for file navigation. Note that you will need to install the `ranger` program also independently.
+
+Let's also install the Ranger plugin for file navigation (note that you will need to install the `ranger` program also independently) and a markdown previewer plugin to check your results as you write.
 
 ```
 Plug 'francoiscabrol/ranger.vim'
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' }
 ```
 
 Next I use the `Goyo` plugin to get that minimalistic and distraction free look for a good writing experience.
@@ -68,30 +70,27 @@ cnoremap <C-v> <c-r>+
 let data_dir = has('nvim') ? stdpath('data') . '/site' : '~/.vim'
 if empty(glob(data_dir . '/autoload/plug.vim'))
   silent execute '!curl -fLo '.data_dir.'/autoload/plug.vim --create-dirs  https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
-    autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
-    endif
+  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+endif
 
 call plug#begin(data_dir . '/plugins')
-
     Plug 'sheerun/vim-polyglot'
     Plug 'junegunn/goyo.vim'
     Plug 'preservim/vim-pencil'
-    Plug 'iamcco/markdown-preview.vim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
+    Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' }
     Plug 'francoiscabrol/ranger.vim'
     Plug 'rbgrouleff/bclose.vim'
     Plug 'sainnhe/sonokai'
-
 call plug#end()
 doautocmd User PlugLoaded
 
-" set colorscheme
 color sonokai
 
-let g:vim_markdown_new_list_item_indent = 0
-
-nnoremap <C-p> :Ranger<CR>
+let g:mkdp_auto_start = 1
 
 autocmd VimEnter * Goyo|SoftPencil
+
+nnoremap <C-p> :Ranger<CR>
 ```
 
 ![](https://user-images.githubusercontent.com/8050949/185811620-04ca4de4-609a-4de7-851a-cf3abfb8fb47.png)
