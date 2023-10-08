@@ -51,8 +51,8 @@ category = "categories"
     weight = 2
     
     [[menu.main]]
-    name = "👨‍💻 About"
-    url = "/about"
+    name = "👨‍💻 Whoami"
+    url = "/whoami"
     weight = 3
     
     [[menu.main]]
