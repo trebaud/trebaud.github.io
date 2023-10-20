@@ -1,7 +1,7 @@
 ---
 title: "AGI and existential risk"
 date: 2023-09-30T00:00:00-0:00
-draft: true
+draft: false
 tags: [AGI]
 ---
 
