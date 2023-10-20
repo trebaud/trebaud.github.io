@@ -23,24 +23,20 @@ Most people think it is obvious that AGI will align itself with human values by 
 
 ## AGI motivation and alignment
 
-To understand why alignment work is necessary we can refer to two pieces of contemporary reasoning on AI motivation, although there are many more lines of reasoning that lead to this conclusion. The first one is often referred to as the "orthogonality thesis" and is described by Nick Bostrom as the following:
+To understand why alignment work is necessary we can refer to two pieces of contemporary reasoning on AI motivation, although there are many more lines of reasoning that lead to this conclusion. The first one is often referred to as the "orthogonality thesis" and is described by Nick Bostrom in this very good [paper](https://nickbostrom.com/superintelligentwill.pdf) as the following:
 
-```
-The orthogonality thesis suggests that we cannot assume that a superintelligence will
+> The orthogonality thesis suggests that we cannot assume that a superintelligence will
 necessarily share any of the final values stereotypically associated with wisdom and intellectual
 development in humans—scientific curiosity, benevolent concern for others, spiritual
 enlightenment and contemplation, renunciation of material acquisitiveness, a taste for refined
 culture or for the simple pleasures in life, humility and selflessness, and so forth
-```
 
 Many people find it hard to accept this thesis. Intuitively it feels as though a sufficiently advanced intelligence will naturally converge to final goals that are similar to those of humans. "Paperclip maximizer" goals are seen as "stupid" and pointless from our reference point, hence incompatible with high intelligence.
 
 The second piece of reasoning is what is known as "instrumental convergence", an obtuse term at first sight but actually pretty intuitive to understand. It just means that the AI will converge to a set of "instrumental" goals which will help it achieve its final goal. Those might be things like resource acquisition or goal preservation. Humans do the same thing, if our final goal is self reproduction (for most of us it is, even if unconsciously) then good instrumental goals could be self preservation (ie. not dying) and resource acquisition (ie. acquiring money and social status in order to better raise kids and attract potential sexual partners). To quote Nick Bostrom again:
 
-```
-An agent with such a final goal (calculate the digits of pi) would have a convergent instrumental reason,
+> An agent with such a final goal (calculate the digits of pi) would have a convergent instrumental reason,
 in many situations, to acquire an unlimited amount of physical resources and, if possible, to eliminate potential threats to itself and its goal system.
-```
 
 Now let's come back quickly to the alignment problem which we should try to solve in one form or another in order to control these systems. Why is it hard to solve in principle?
 
