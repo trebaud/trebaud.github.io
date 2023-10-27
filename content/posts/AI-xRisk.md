@@ -9,11 +9,12 @@ tags: [AGI]
 
 Decades of bad Sci-Fi movies have conditioned our minds to think of AGI in terms of human archetypes. It is usually depicted as an anthropomorphized projection of the smartest human among us into silicon form. Be it as a cute Wall-E or a psychopathic Skynet, AI is something (or someone) we can more or less understand and maybe even reason with.
 
+## Human cognitive biases
+
 If we believe the [vulnerable world hypothesis](https://onlinelibrary.wiley.com/doi/full/10.1111/1758-5899.12718) described by Nick Bostrom we will at some point encounter a technological black ball that will present an immediate and obvious existential threat. Humans are subject to a range of cognitive biases that make them bad at evaluating black swan events. Continuity or normalcy bias, ie. the belief that the short or medium term future won't be too different from the present, is strongly at play here. There is an ingrained [techno-optimism](https://a16z.com/the-techno-optimist-manifesto/) that implicitly rejects or downplays the vulnerability idea.
 
 So should we worry then? Is AGI likely to arrive any time soon? And if it does, is there really a problem? [Metaculus](https://www.metaculus.com/questions/3479/date-weakly-general-ai-is-publicly-known/) places the median of arrival of AGI at August 2026. Many experts in the field from the likes of Geoffrey Hinton, Yoshua Bengio, Stuart Russel or Eliezer Yudkowsky have all expressed deep concern with the current rate of progress in AI. This progress is being led primarily by transformer models, neural network architectures that were originally developed primarily as a way to improve performance on natural language translation tasks. Fast forward a few years and these models have now been scaled to billions of parameters and are exhibiting impressive and unforeseen emergent behaviours.
 
-## Cognitive biases
 
 It is useful when approaching unintuitive subjects like these, to try and think from first principles and avoid some obvious cognitive biases as much as possible. In one of her articles, macroeconomist [Lynn Alden](https://www.lynalden.com/) describes the difference between intelligence and rationality. She equates intelligence to computing power, but rationality to the ability of avoiding reasoning biases. Think like the rational investor, don't assume you can predict what is going to happen based on what feels familiar and intuitive, instead pay attention to the logical structure of an argument and from that try to derive some sense about the risk constraints of a possible future event.
 
@@ -50,7 +51,7 @@ Besides the value loading problem there are other properties that we would want 
 
 Needless to say this is an active area of research, with probably decades of human speed progress still ahead.
 
-## Human problems
+## Governance risk
 
 Finally the most difficult challenges to solve might not even be technical in nature but instead related to governance or human coordination problems. Let's say we solve the alignment problem in time, who is to say that this knowledge won't be used by some malicious or greedy actor to bypass all controls and create an unaligned agent? This is even more likely to occur if we continue on the open sourcing trajectory. Llamas and AutoGPTs are currently not strong enough to do real damage but we should not expect this to remain the case for long. Open sourcing this kind of tech is a bad idea since it increases the number of participants in the race and makes it harder to regulate AI safety measures.
 
@@ -76,6 +77,6 @@ If you don't like the conclusion then with what premise do you disagree with? Or
 
 AI safety is a vast and fascinating field and there are many topics I didn't cover here like capability control, kinetics of capabilities development (FOOM or not?), multipolar scenarios (refer to "Superintelligence" by Nick Bostrom for a more in depth discussion on these topics) or outer and inner alignment (most of what we talked about here could be considered as outer alignment).
 
-It is plausible that real AGI is still decades away and that it will require more than just scaling of the current transformer architectures, [here](https://arxiv.org/abs/2305.18654) is a good paper that explores limits of current systems. But again at the risk of sounding repetitive, we don't need to get to "real" AGI, whatever that means, to get to powerful actions to goals optimizers capable of real damage.
+AGI might still be decades away and might require more than just scaling of the current transformer architectures, [here](https://arxiv.org/abs/2305.18654) is a good paper that explores limits of current systems. [Bill Gates](https://multiplatform.ai/bill-gates-suggests-that-generative-ai-may-have-reached-a-plateau-despite-openais-optimism-about-gpt-5/) is already anticipating a plateau for generative AI and doesn't think next gpt iterations in the next 5 years will bring the same kind of breakthroughs that we saw this year. But again at the risk of sounding repetitive, we don't need to get to "real" AGI, whatever that means, to get to powerful actions to goals optimizers capable of real damage.
 
-It is also entirely possible that building AGI safely is the equivalent of trying to build a perpetual motion machine in the informational realm. Some people will find this idea absurd, but impossibility results exist everywhere, not only in mathematics but in physics as well. Something like the 2nd law of thermodynamics might prevent a lesser optimizer from achieving alignment with a more powerful one.
+It is only a matter of time untill we get to general powerful optimizers and it is entirely possible that building AGI safely is the equivalent of trying to build a perpetual motion machine in the informational realm. Some people will find this idea absurd, but impossibility results exist everywhere. Something like the 2nd law of thermodynamics might prevent a lesser optimizer from achieving alignment with a more powerful one.
