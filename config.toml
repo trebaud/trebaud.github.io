@@ -1,55 +1,54 @@
 baseURL = "https://trebaud.github.io/"
 languageCode = "en-us"
 paginate = 5
-tags = ["development", "python", "neovim"]
+tags = ["development", "software", "neovim", "security"]
 theme = "hello-friend-trebaud"
-title = "Yet Another Random Memoir"
+title = "trebaud"
 
 [params]
-dateform        = "Jan 2, 2006"
-dateformShort   = "Jan 2"
-dateformNum     = "2006-01-02"
-dateformNumTime = "2006-01-02 15:04"
+    description = "My blog"
+    keywords = ""
+    images = [""]
 
-description = "My blog"
-keywords = ""
-images = [""]
-
-homeSubtitle = "A collection of loosely coupled ramblings about tech, coding and life." 
-
-disableReadOtherPosts = false
-enableThemeToggle = true
-enableSharingButtons = true
-enableComments = true
-missingContentMessage = "??"
+    showMenuItems = 2
+    
+    showReadingTime = true
+    
+    homeSubtitle = "A collection of loosely coupled ramblings about tech, coding and life." 
+    
+    disableReadOtherPosts = false
+    enableThemeToggle = true
+    enableSharingButtons = true
+    enableComments = true
+    missingContentMessage = "??"
 
 [params.utterances]
-owner = "trebaud"
-repo = "trebaud.github.io"
+    owner = "trebaud"
+    repo = "trebaud.github.io"
 
 [params.logo]
-logoMark     = ">"
-logoText     = "$ cd /home/"
-logoHomeLink = "/"
+    logoMark     = ">"
+    logoText     = "$ cd /home/"
+    logoHomeLink = "/"
 
 [[params.social]]
-name = "github"
-url = "https://github.com/trebaud"
+    name = "github"
+    url = "https://github.com/trebaud"
 
 [[params.social]]
-name = "linkedin"
-url = "https://www.linkedin.com/in/thomas-rebaud-8017a168/"
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/thomas-rebaud-8017a168/"
 
 [taxonomies]
-tag = "tags"
-category = "categories"
+    tag = "tags"
+    category = "categories"
 
 [menu]
     [[menu.main]]
-    name = "📝 All posts"
+    name = "📄 Posts"
     url = "/posts"
     weight = 2
-    
+
     [[menu.main]]
     name = "👨‍💻 whoami"
     url = "/whoami"
