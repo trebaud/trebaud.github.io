@@ -45,8 +45,8 @@ title = "trebaud"
 
 [menu]
     [[menu.main]]
-    name = "📄 Posts"
-    url = "/posts"
+    name = "📄 ls"
+    url = "/ls"
     weight = 2
 
     [[menu.main]]
@@ -55,11 +55,11 @@ title = "trebaud"
     weight = 3
     
     [[menu.main]]
-    name = "🔍 Tags"
+    name = "🔍 tags"
     url = "/tags"
     weight = 4
     
     [[menu.main]]
-    name = "🎸"
+    name = "🎸 guitar"
     url = "/neck-visualizer"
     weight = 5
