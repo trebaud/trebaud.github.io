@@ -46,7 +46,7 @@ title = "trebaud"
 [menu]
     [[menu.main]]
     name = "📄 ls"
-    url = "/ls"
+    url = "/posts"
     weight = 2
 
     [[menu.main]]
