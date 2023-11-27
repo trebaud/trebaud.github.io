@@ -28,7 +28,7 @@ title = "trebaud"
 
 [params.logo]
     logoMark     = ">"
-    logoText     = "$ cd /home/"
+    logoText     = "$ cd /home/trebaud"
     logoHomeLink = "/"
 
 [[params.social]]
@@ -45,12 +45,12 @@ title = "trebaud"
 
 [menu]
     [[menu.main]]
-    name = "📄 ls"
+    name = "cd ~/posts"
     url = "/posts"
     weight = 2
 
     [[menu.main]]
-    name = "👨‍💻 whoami"
+    name = "whoami"
     url = "/whoami"
     weight = 3
     
