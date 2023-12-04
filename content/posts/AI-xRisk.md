@@ -1,5 +1,5 @@
 ---
-title: "AGI existential risk 101"
+title: "AGI existential risk 102"
 date: 2023-10-19T05:56:32-04:00
 draft: false
 tags: [AGI]
@@ -11,7 +11,7 @@ Decades of bad Sci-Fi movies have conditioned our minds to think of AGI in terms
 
 ## Human cognitive biases
 
-If we believe the [vulnerable world hypothesis](https://onlinelibrary.wiley.com/doi/full/10.1111/1758-5899.12718) described by Nick Bostrom we will at some point encounter a technological black ball that will present an immediate and obvious existential threat to civilization. Humans are subject to a range of cognitive biases that make them bad at evaluating black swan events. Continuity or normalcy bias, ie. the belief that the short or medium term future won't be too different from the present, is strongly at play here. Moreover there is an ingrained [techno-optimism](https://a16z.com/the-techno-optimist-manifesto/) that implicitly rejects or downplays the vulnerability thesis.
+If we believe the [vulnerable world hypothesis](https://onlinelibrary.wiley.com/doi/full/10.1111/1758-5899.12718) described by Nick Bostrom we will at some point encounter a technological "black ball", that is to say a technology that will present an immediate and obvious existential threat to civilization. Humans are subject to a range of cognitive biases that make them bad at evaluating black swan events. Continuity or normalcy bias, ie. the belief that the short or medium term future won't be too different from the present, is strongly at play here. Moreover there is an ingrained [techno-optimism](https://a16z.com/the-techno-optimist-manifesto/) that implicitly rejects or downplays the vulnerability thesis.
 
 So should we worry then? Is AGI likely to arrive any time soon? And if it does, is there really a problem?
 
@@ -28,15 +28,19 @@ Most people think it is obvious that AGI will align itself with human values by 
 
 To understand why alignment work is necessary we can refer to two pieces of contemporary reasoning on AI motivation, although there are other lines of reasoning that lead to this conclusion. The first one is often referred to as the "orthogonality thesis" and is described by Nick Bostrom in this very good [paper](https://nickbostrom.com/superintelligentwill.pdf) as the following:
 
+> Intelligence and final goals are orthogonal axes along which possible agents can freely
+vary. In other words, more or less any level of intelligence could in principle be
+combined with more or less any final goal. 
+
 > The orthogonality thesis suggests that we cannot assume that a superintelligence will
 necessarily share any of the final values stereotypically associated with wisdom and intellectual
 development in humans—scientific curiosity, benevolent concern for others, spiritual
 enlightenment and contemplation, renunciation of material acquisitiveness, a taste for refined
 culture or for the simple pleasures in life, humility and selflessness, and so forth
 
-Many people find it hard to accept this thesis. Intuitively it feels as though a sufficiently advanced intelligence will naturally converge to final goals that are similar to those of humans. "Paperclip maximizer" goals are seen as "stupid" and pointless from our reference point, hence incompatible with high intelligence.
+Many people find it hard to accept this thesis. Intuitively it feels as though a sufficiently advanced intelligence will naturally converge to final goals that are similar to those of humans. [Paperclip maximizer](https://terbium.io/2020/05/paperclip-maximizer/) goals are seen as "stupid" and pointless from our reference point, hence incompatible with high intelligence.
 
-The second piece of reasoning is what is known as "instrumental convergence", an obtuse term at first sight but actually pretty intuitive to understand. It just means that the AI will converge to a set of "instrumental" goals which will help it achieve its final goal. Those might be things like resource acquisition or goal preservation. Humans do the same thing, if our final goal is self reproduction (for most of us it is, even if unconsciously) then good instrumental goals could be self preservation (ie. not dying) and resource acquisition (ie. acquiring money and social status in order to better raise kids and attract potential sexual partners). To quote Nick Bostrom again:
+The second piece of reasoning is what is known as "instrumental convergence", an obtuse term at first sight but actually pretty intuitive to understand. It just means that the AI will converge to a set of "instrumental" goals which will help it achieve its final goal. Those might be things like resource acquisition or goal preservation. To quote Bostrom again:
 
 > An agent with such a final goal (calculate the digits of pi) would have a convergent instrumental reason,
 in many situations, to acquire an unlimited amount of physical resources and, if possible, to eliminate potential threats to itself and its goal system.
@@ -75,7 +79,7 @@ alignment problem is hard =
 AGI poses an existential risk (or p(doom) >> 0)
 ```
 
-If you don't like the conclusion then with what premise do you disagree with? Or maybe you think the conclusion doesn't follow from the premises, or that some implicit premises are missing. You are probably right. If you don't find anything wrong with the argument in principle but are still unable to accept the conclusion, try to identify the cognitive biases at play with your line of thinking: normalcy bias, optimistic bias, sunk cost fallacy, etc.
+If you don't like the conclusion then with what premise do you disagree with? Or maybe you think the conclusion doesn't follow from the premises, or that some implicit premises are missing. If you don't find anything wrong with the argument in principle but are still unable to accept the conclusion, try to identify the cognitive biases at play with your line of thinking: normalcy bias, optimistic bias, sunk cost fallacy, etc.
 
 AI safety is a vast and fascinating field and there are many topics I didn't cover here like capability control, kinetics of capabilities development (FOOM or not FOOM), multipolar scenarios (refer to "Superintelligence" by Nick Bostrom for a more in depth discussion on these topics) or outer and inner alignment (most of what we talked about here could be considered as outer alignment).
 
