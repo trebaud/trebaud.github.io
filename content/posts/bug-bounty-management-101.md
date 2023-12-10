@@ -9,7 +9,7 @@ Bug bounties (BB) are rapidly becoming an essential part of the modern security 
 
 From experience unless you have a dedicated team working full time on security, most bugs uncovered by internal teams are done so in a serendipitous way. Regular pentests are useful for improving security controls and provide that extra compliance check but I find that results are often limited especially when it comes to application security and business logic bugs.
 
-I will share some tips and tricks I learned while managing a bug bounty program for a mid size startup. Most of these tips will apply whether you are using a managed bug bounty platform or implementing and hosting your own program. Platforms like HackerOne or Bugcrowd take care of the boring parts, so if your team can afford it then great. But with the right processes in place, I believe owning your own bug bounty program can be a rewarding experience.
+I will share some tips and tricks I learned while handling a bug bounty program for a mid size startup. Most of these tips will apply whether you are using a managed bug bounty platform or implementing and hosting your own program. Platforms like HackerOne or Bugcrowd take care of the boring parts, so if your team can afford it then great. But with the right processes in place, I believe owning your own bug bounty program can be a rewarding experience.
 
 ## Rules of engagement
 
