@@ -13,7 +13,7 @@ I will share some tips and tricks I learned while handling a bug bounty program 
 
 ## Rules of engagement
 
-First things first, you will need to define a clear set of rules and guidelines so that bounty hunters will know which kind of bugs to care about and which ones to disregard. Alignment between the internal security team and bounty hunters is important as it avoids time waste on both sides.
+First things first, you will need to define a clear set of rules and guidelines so that bounty hunters know which kind of bugs to care about and which ones to disregard. Alignment between the internal security team and bounty hunters is important as it avoids time waste on both sides.
 
 Typical rules of engagement should include things like:
 
