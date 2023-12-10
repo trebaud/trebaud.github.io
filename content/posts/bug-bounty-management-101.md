@@ -2,6 +2,7 @@
 title: "Owning your own Bug Bounty program"
 date: 2023-11-04T18:22:34-04:00
 draft: false
+tags: [security]
 ---
 
 Bug bounties (BB) are rapidly becoming an essential part of the modern security toolkit for most companies. And for good reason, they provide a cost effective way of exposing your application to a potentially vast range of experts and catch security holes that would otherwise take time and effort to find.
