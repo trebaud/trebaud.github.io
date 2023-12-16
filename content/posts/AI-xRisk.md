@@ -1,5 +1,5 @@
 ---
-title: "AGI existential risk 102"
+title: "AGI and existential risk"
 date: 2023-10-19T05:56:32-04:00
 draft: false
 tags: [AGI]
