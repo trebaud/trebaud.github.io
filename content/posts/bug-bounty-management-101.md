@@ -19,22 +19,22 @@ Typical rules of engagement should include things like:
 
 * rules regarding tester identifiers: account name pattern, user agent, request headers
 * potential restrictions on the amount of request per second with automated tools
-* general code of conduct
+* a general code of conduct
 
 It is also good practice to have a safe harbor policy. A safe harbor is a set of guidelines or rules with the purpose of protecting security researchers or ethical hackers participating in the program. Bounty hunters will feel safe in reporting potentially damaging vulnerabilities without fearing being subject to legal action by your organization.
 
-Also include some generic recommendations to testers. This will help less experienced testers to up their reporting game and help you as a triager in reducing the amount of noise and parse through submissions in a faster and more efficient way. Some examples of good recommendations could be things like:
+Also include some generic recommendations to testers. This will help less experienced testers up their reporting game and help you as a triager by reducing the amount of noise. Some examples of good recommendations could be things like:
 
 * asking them to provide detailed submissions with steps on how to reproduce the issue.
-* asking them to explain the impact of the security issue. This is actually quite crucial as a lot of bounty hunters approach a bug bounty as they would a regular pentest (maybe because most of them are pentesters?). Ask them to provide the real business impact of a potential vulnerability. Reporting on an isolated security control issue without real impact won’t matter to you, but being able to chain different security issues in a way that affects the crown jewels of your business is highly relevant.
+* asking them to explain the impact of the security issue. This is actually quite crucial as a lot of bounty hunters approach a bug bounty as they would a regular pentest (maybe because most of them are pentesters?). Ask them to describe the real business impact of a potential vulnerability. Reporting on an isolated security control issue without real impact won’t matter to you, but being able to chain different security issues in a way that affects the crown jewels of your business is highly relevant.
 * asking them to follow a responsible disclosure policy (do not post on social media for example).
-* asking them to not affect other users' accounts or PII, they can create different tester accounts to test for access control issues for example.
+* asking them to avoid affecting other users' accounts or PII, they can create different tester accounts to test for access control issues for example.
 
 ## Scope
 
-Every bug bounty program should have a clear scope listing all the types of systems, assets and applications that are eligible for testing. As such the scope will typically include a list of domains, subdomains, endpoints or executables that your organization wishes hackers to take a look at. By definition all other assets related to your organization are out of bounds.
+Every bug bounty program should have a clear scope listing all the types of systems, assets and applications that are eligible for testing. As such the scope will typically include a list of domains, subdomains, api endpoints or executables that your organization wishes hackers to take a look at. By definition all other assets related to your organization are out of bounds.
 
-The scope should also include a set of restrictions related to the type of security issues that should not be reported upon. This is very important otherwise you will get a lot of reports about things you don’t care about. From experience even having a clear scope sometimes doesn’t stop security researchers from submitting on out of scope stuff. It is quite annoying and time consuming from an internal perspective but comes from good intentions most of the time IMO. That is one of the big advantages of managed platforms btw, they sort through the noise for you and allow you to focus on the gold nuggets.
+The scope should also include a set of restrictions related to the type of security issues that should not be reported upon. This is very important otherwise you will get a lot of reports about things you don’t care about. From experience even having a clear scope sometimes doesn’t stop security researchers from submitting on out of scope stuff. It can be quite annoying and time consuming from an internal perspective but comes from good intentions most of the time IMO. That is one of the big advantages of managed platforms btw, they sort through the noise for you and allow you to focus on the more interesting and relevant submissions.
 
 Common themes that are usually out of scope in BBs:
 
@@ -57,9 +57,9 @@ This list should be customized depending on the specific needs of your organizat
 
 ## Bounty payment amounts
 
-I don’t think I need to explain that handing out financial rewards is a powerful incentive that will allow you to attract more security researchers both in terms of quantity and quality. That said, if you're a small startup and are not ready to give out cash yet you can still attract more inexperienced hunters looking to improve their skills and build a tight knit community of researchers that you can reward later down the road when you can. You can also give out SWAGs as rewards.
+I don’t think I need to explain that handing out financial rewards is a powerful incentive that will allow you to attract more security researchers both in terms of quantity and quality. That said, if you're a small startup and are not ready to give out cash yet, you can still attract more inexperienced hunters looking to improve their skills. This will allow you to build a tight knit community of researchers that you can reward later down the road when you can. You can also give out SWAGs as rewards.
 
-I don’t believe you need to have a clear and public compensation matrix if you are a small to mid size organization, researchers will usually be happy if the retribution is not too far off what would be considered fair for the type of bug found. It is entirely at your discretion on how much you want to give out for which type of bug, although some sort of process internally is desirable to avoid wild fluctuations in the cash amounts given. Consistency will send a clear signal to researchers that you can be trusted to give fair compensations.
+I don’t believe you need to have a clear and public compensation matrix if you are a small to mid size organization, researchers will usually be happy if the retribution is not too far off what would be considered fair for the type of bug found. It is entirely at your discretion on how much you want to give out for which type of bug, although some sort of process internally is desirable to avoid wild fluctuations in the cash amounts given. Consistency will send a clear signal to researchers that you can be trusted to give fair compensations within the range your team has decided upon.
 
 If you do decide to go for a public matrix, the most common pattern I’ve seen is to categorize bugs according to their severity and impact to the business and give out increasing sets of amounts according to these categories. Common classes of bugs are: informational for very low impact bugs, low, medium, high and critical. These categories in terms of severity can also be combined with different asset tiers, as such a high impact bug submission could be rewarded differently depending on whether it affects domain A or B.
 
@@ -77,6 +77,8 @@ To save you time, here are a few tips in no particular order:
 * have a clear and defined process internally to streamline NDAs and payouts
 * use a shared email alias security@mycompany for improved visibility among team members
 * use a set of emails templates for common responses to researchers for duplicates or out of scope reports
+* regularly refer to your scope and rules and engagement when answering bounty hunters in order to justify rejections
+* organize a team rotation within your security champions team so as not to overload members with too much work
 
 Regarding scope, it can be tempting to keep adding more and more restrictions regarding types of vulnerabilities in order to reduce noise, but it can be counterproductive and discourage researchers from reporting classes of bugs that were not in your initial threat model and that actually might have a higher impact than you thought.
 
