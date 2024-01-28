@@ -5,6 +5,8 @@ tags = ["development", "software", "neovim", "security"]
 theme = "hello-friend-trebaud"
 title = "trebaud"
 
+googleAnalytics = "G-4BDVPG70H1"
+
 [params]
     description = "My blog"
     keywords = ""
