@@ -2,6 +2,7 @@
 title: "APT install kali linux repos in Ubuntu 22.04"
 date: 2024-01-28T15:11:20-05:00
 draft: false
+tags: [security, linux]
 ---
 
 If you recently tried adding a new linux source repository in Ubuntu 22.04, then you might have seen this warning mesage:
