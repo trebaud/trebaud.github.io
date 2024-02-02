@@ -49,12 +49,13 @@ class MerkleTree:
 
     def __buildTree(self, values: List[str])-> None:
         leaves: List[Node] = [Node(None, None, Node.doubleHash(e)) for e in values]
-        if len(leaves) % 2 == 1:
-            leaves.append(leaves[-1:][0]) # duplicate last elem if odd number of elements
         self.root: Node = self.__buildTreeRec(leaves)
 
     def __buildTreeRec(self, nodes: List[Node])-> Node:
         half: int = len(nodes) // 2
+
+        if len(nodes) == 1:
+            return Node(nodes[0], nodes[0], Node.doubleHash(nodes[0].value))
 
         if len(nodes) == 2:
             return Node(nodes[0], nodes[1], Node.doubleHash(nodes[0].value + nodes[1].value))
@@ -82,13 +83,16 @@ We can then test our data structure by sending in a list of strings and getting 
 ```python
 def test()-> None:
     elems = ["Hello", "mister", "Merkle"]
+    if len(elems) == 0:
+        raise Exception("Your list is empty, provide at least one element.")
+
     mtree = MerkleTree(elems)
     print(mtree.getRootHash())
 ```
 
 ```bash
 ~$ python3.6 merkletree.py
-8617d7a42c4ef170227e97fc407a9af29e1d52db4a0dcff56a039fd16cde0f69
+eac44a171f264412cc5744b9e206fcfb2ce77c1e9dc64d17a56ef7cc5eb386c7
 ```
 
 That's it! Feel free to try this code and improve it at will.
