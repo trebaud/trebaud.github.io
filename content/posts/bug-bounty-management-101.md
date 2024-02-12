@@ -1,5 +1,5 @@
 ---
-title: "Owning your own Bug Bounty program"
+title: "Bug Bounty 101 (a triager's perspective)"
 date: 2023-11-04T18:22:34-04:00
 draft: false
 tags: [security]
