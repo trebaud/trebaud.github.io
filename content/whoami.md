@@ -4,6 +4,7 @@ Here are some of things I'm currently interested in or learning about:
     * 🛡️ AppSec
     * ⛓️  Supply chain security
     * 🦾 LLM security and AI safety
+    * 🏗️ Building of RAG (Retrieval Augmented Generation) pipelines for LLM apps
     * 🔐 Cryptography
 
 Feel free to contact me here: [📧](mailto:rebaud.thomas@gmail.com)
