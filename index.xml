@@ -14,5 +14,6 @@ Tools # Code editor: Neovim with vim-plug Shell: fish with oh-my-fish and spacef
 Build a Merkle tree in Python</description></item><item><title>Typing Python with typing</title><link>https://trebaud.github.io/posts/typing-python/</link><pubDate>Wed, 27 Dec 2017 00:00:00 -0500</pubDate><guid>https://trebaud.github.io/posts/typing-python/</guid><description>
 Learn how to add types to your Python code</description></item><item><title/><link>https://trebaud.github.io/whoami/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://trebaud.github.io/whoami/</guid><description>
 👋 Hi I&amp;rsquo;m a software developer currently based in Montreal. I like to ship code for the web in a secure and reliable way.
-Here are some of things I&amp;rsquo;m currently interested in or learning about: * 🛡️ AppSec * ⛓️ Supply chain security * 🦾 LLM security and AI safety * 🏗️ Building of RAG (Retrieval Augmented Generation) pipelines for LLM apps * 🔐 Cryptography
-Feel free to contact me here: 📧</description></item></channel></rss>
+Here are some of things I&amp;rsquo;m currently interested in or learning about:
+🛡️ AppSec ⛓️ Supply chain security 🦾 LLM security and AI safety 🏗️ Building of RAG (Retrieval Augmented Generation) pipelines for LLM apps 🔐 Cryptography Feel free to contact me here: 📧
+Socials: Github Linkedin</description></item></channel></rss>
