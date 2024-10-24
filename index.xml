@@ -1,20 +1,60 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>trebaud</title><link>https://trebaud.github.io/</link><description>Recent content on trebaud</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 29 Apr 2024 16:48:13 -0400</lastBuildDate><atom:link href="https://trebaud.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>APT install kali linux repos in Ubuntu 22.04</title><link>https://trebaud.github.io/posts/install-kali/</link><pubDate>Sun, 28 Jan 2024 15:11:20 -0500</pubDate><guid>https://trebaud.github.io/posts/install-kali/</guid><description>
-If you recently tried adding a new linux source repository in Ubuntu 22.04, then you might have seen this warning mesage:
-Warning: apt-key is deprecated. Manage keyring files in trusted.gpg.d instead (see apt-key(8)). Apt-key is a sub-command of apt used to manage asymmetric encryption keys in order to authenticate packages. It was found some time ago to be vulnerable to man-in-the-middle attacks (see CVE-2011-3374). Now it has finally been deprecated and will be deleted at some point in the future.</description></item><item><title>Bug Bounty 101 (a triager's perspective)</title><link>https://trebaud.github.io/posts/bug-bounty-management-101/</link><pubDate>Sat, 04 Nov 2023 18:22:34 -0400</pubDate><guid>https://trebaud.github.io/posts/bug-bounty-management-101/</guid><description>
-Bug bounties (BB) are rapidly becoming an essential part of the modern security toolkit for most companies. And for good reason, they provide a cost effective way of exposing your application to a potentially vast range of experts and catch security holes that would otherwise take time and effort to find.
-From experience unless you have a dedicated team working full time on security, most bugs uncovered by internal teams are done so in a serendipitous way.</description></item><item><title>AGI and existential risk</title><link>https://trebaud.github.io/posts/ai-xrisk/</link><pubDate>Thu, 19 Oct 2023 05:56:32 -0400</pubDate><guid>https://trebaud.github.io/posts/ai-xrisk/</guid><description>
-&amp;ldquo;The Creator&amp;rdquo; is the latest AI blockbuster sensation to grace our screens this year. In it we are introduced to a future where AI robots and &amp;ldquo;simulants&amp;rdquo; are a more compassionate and peaceful version of their human counterparts and have to fight for their freedom and defeat American imperialism. Although the film is visually stunning with impressive photography and special effects, the storytelling is superficial, with poor character development and an unoriginal scenario imo.</description></item><item><title>Neovim for Writers</title><link>https://trebaud.github.io/posts/neovim-for-writers/</link><pubDate>Sun, 31 Jul 2022 05:56:32 -0400</pubDate><guid>https://trebaud.github.io/posts/neovim-for-writers/</guid><description>
-In this quick post I share how to optimize your Neovim setup for writing. Neovim is a great option for writers, it combines an ergonomic resting default position with powerful text manipulation capabilities.
-First let&amp;rsquo;s install a good syntax highlighter that includes Markdown, I use polyglot which is pretty complete and works well.
-Plug &amp;#39;sheerun/vim-polyglot&amp;#39; Let&amp;rsquo;s also install the Ranger plugin for file navigation (note that you will need to install the ranger program also independently) and a markdown previewer plugin to check your results as you write.</description></item><item><title>On proof of work</title><link>https://trebaud.github.io/posts/bitcoin-mining/</link><pubDate>Mon, 11 Jul 2022 22:24:52 -0400</pubDate><guid>https://trebaud.github.io/posts/bitcoin-mining/</guid><description>
-When I first heard about Bitcoin, proof of work (PoW) sounded like the coolest and most mysterious concept tied to the protocol. But mainstream media articles trying to describe the PoW process always fell short of a proper explanation for me. They usually read something like: &amp;ldquo;miners race to solve complex mathematical problems in order to validate the next block of transactions and earn bitcoins as a reward&amp;rdquo;, which sounded cool and all but only added to the mystery and the confusion.</description></item><item><title>Neovim terminal fun</title><link>https://trebaud.github.io/posts/neovim-term/</link><pubDate>Sun, 26 May 2019 00:00:00 -0500</pubDate><guid>https://trebaud.github.io/posts/neovim-term/</guid><description>
+&lt;p>If you recently tried adding a new linux source repository in Ubuntu 22.04, then you might have seen this warning mesage:&lt;/p>
+&lt;pre tabindex="0">&lt;code>Warning: apt-key is deprecated. Manage keyring files in trusted.gpg.d instead (see apt-key(8)).
+&lt;/code>&lt;/pre>&lt;p>Apt-key is a sub-command of apt used to manage asymmetric encryption keys in order to authenticate packages. It was found some time ago to be vulnerable to man-in-the-middle attacks (see &lt;a href="https://security-tracker.debian.org/tracker/CVE-2011-3374">CVE-2011-3374&lt;/a>). Now it has finally been deprecated and will be deleted at some point in the future.&lt;/p></description></item><item><title>Bug Bounty 101 (a triager's perspective)</title><link>https://trebaud.github.io/posts/bug-bounty-management-101/</link><pubDate>Sat, 04 Nov 2023 18:22:34 -0400</pubDate><guid>https://trebaud.github.io/posts/bug-bounty-management-101/</guid><description>
+&lt;p>Bug bounties (BB) are rapidly becoming an essential part of the modern security toolkit for most companies. And for good reason, they provide a cost effective way of exposing your application to a potentially vast range of experts and catch security holes that would otherwise take time and effort to find.&lt;/p>
+&lt;p>From experience unless you have a dedicated team working full time on security, most bugs uncovered by internal teams are done so in a serendipitous way. Regular pentests are useful for improving security controls and provide that extra compliance check but I find that results are often limited especially when it comes to application security and business logic bugs.&lt;/p></description></item><item><title>AGI and existential risk</title><link>https://trebaud.github.io/posts/ai-xrisk/</link><pubDate>Thu, 19 Oct 2023 05:56:32 -0400</pubDate><guid>https://trebaud.github.io/posts/ai-xrisk/</guid><description>
+&lt;p>&amp;ldquo;&lt;a href="https://www.rottentomatoes.com/m/the_creator_2023">The Creator&lt;/a>&amp;rdquo; is the latest AI blockbuster sensation to grace our screens this year. In it we are introduced to a future where AI robots and &amp;ldquo;simulants&amp;rdquo; are a more compassionate and peaceful version of their human counterparts and have to fight for their freedom and defeat American imperialism. Although the film is visually stunning with impressive photography and special effects, the storytelling is superficial, with poor character development and an unoriginal scenario imo. But even the best movies of the last decades on the topic (Her, Automata, Ex Machina) all seem to be missing something big in the way they describe our interactions with AGI.&lt;/p></description></item><item><title>Neovim for Writers</title><link>https://trebaud.github.io/posts/neovim-for-writers/</link><pubDate>Sun, 31 Jul 2022 05:56:32 -0400</pubDate><guid>https://trebaud.github.io/posts/neovim-for-writers/</guid><description>
+&lt;p>In this quick post I share how to optimize your Neovim setup for writing. Neovim is a great option for writers, it combines an ergonomic resting default position with powerful text manipulation capabilities.&lt;/p>
+&lt;p>First let&amp;rsquo;s install a good syntax highlighter that includes Markdown, I use &lt;code>polyglot&lt;/code> which is pretty complete and works well.&lt;/p>
+&lt;pre tabindex="0">&lt;code>Plug &amp;#39;sheerun/vim-polyglot&amp;#39;
+&lt;/code>&lt;/pre>&lt;p>Let&amp;rsquo;s also install the Ranger plugin for file navigation (note that you will need to install the &lt;code>ranger&lt;/code> program also independently) and a markdown previewer plugin to check your results as you write.&lt;/p></description></item><item><title>On proof of work</title><link>https://trebaud.github.io/posts/bitcoin-mining/</link><pubDate>Mon, 11 Jul 2022 22:24:52 -0400</pubDate><guid>https://trebaud.github.io/posts/bitcoin-mining/</guid><description>
+&lt;p>When I first heard about Bitcoin, proof of work (PoW) sounded like the coolest and most mysterious concept tied to the protocol. But mainstream media articles trying to describe the PoW process always fell short of a proper explanation for me. They usually read something like: &lt;em>&amp;ldquo;miners race to solve complex mathematical problems in order to validate the next block of transactions and earn bitcoins as a reward&amp;rdquo;&lt;/em>, which sounded cool and all but only added to the mystery and the confusion.&lt;/p></description></item><item><title>Neovim terminal fun</title><link>https://trebaud.github.io/posts/neovim-term/</link><pubDate>Sun, 26 May 2019 00:00:00 -0500</pubDate><guid>https://trebaud.github.io/posts/neovim-term/</guid><description>
 Configure your neovim terminal for maximum efficiency</description></item><item><title>My dev setup</title><link>https://trebaud.github.io/posts/dev-config/</link><pubDate>Thu, 07 Feb 2019 00:00:00 -0500</pubDate><guid>https://trebaud.github.io/posts/dev-config/</guid><description>
-In this post I list all the programs and configurations I use for my development workflow. I favor a terminal centric approach in the tools I use as I consider it to be the most efficient way to work.
-Tools # Code editor: Neovim with vim-plug Shell: fish with oh-my-fish and spacefish Terminal emulator: kitty tig Optional # Command line finder: fzf Command line color scheme: Gogh Vim browser extension: Vimium Alternatives # Tmux Github-desktop Vscode i3 zsh with oh-my-zsh and spaceship theme Configuration # Here you can find the different configuration files I use for the various tools listed above.</description></item><item><title>Implementing a Merkle tree in Python</title><link>https://trebaud.github.io/posts/merkle-tree/</link><pubDate>Sat, 06 Jan 2018 00:00:00 -0500</pubDate><guid>https://trebaud.github.io/posts/merkle-tree/</guid><description>
+&lt;p>In this post I list all the programs and configurations I use for my development workflow. I favor a terminal centric approach in the tools I use as I consider it to be the most efficient way to work.&lt;/p>
+&lt;h2 id="tools">
+Tools
+&lt;a href="#tools" class="h-anchor" aria-hidden="true">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>Code editor: &lt;a href="https://github.com/neovim/neovim">Neovim&lt;/a> with &lt;a href="https://github.com/junegunn/vim-plug">vim-plug&lt;/a>&lt;/li>
+&lt;li>Shell: &lt;a href="https://github.com/fish-shell/fish-shell">fish&lt;/a> with &lt;a href="https://github.com/oh-my-fish/oh-my-fish">oh-my-fish&lt;/a> and &lt;a href="https://github.com/matchai/spacefish">spacefish&lt;/a>&lt;/li>
+&lt;li>Terminal emulator: &lt;a href="https://github.com/kovidgoyal/kitty">kitty&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/jonas/tig">tig&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="optional">
+Optional
+&lt;a href="#optional" class="h-anchor" aria-hidden="true">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>Command line finder: &lt;a href="https://github.com/junegunn/fzf">fzf&lt;/a>&lt;/li>
+&lt;li>Command line color scheme: &lt;a href="https://github.com/Mayccoll/Gogh">Gogh&lt;/a>&lt;/li>
+&lt;li>Vim browser extension: &lt;a href="https://addons.mozilla.org/en-CA/firefox/addon/vimium-ff/">Vimium&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="alternatives">
+Alternatives
+&lt;a href="#alternatives" class="h-anchor" aria-hidden="true">#&lt;/a>
+&lt;/h2>
+&lt;ul>
+&lt;li>Tmux&lt;/li>
+&lt;li>Github-desktop&lt;/li>
+&lt;li>Vscode&lt;/li>
+&lt;li>&lt;a href="https://i3wm.org/">i3&lt;/a>&lt;/li>
+&lt;li>zsh with &lt;a href="https://github.com/robbyrussell/oh-my-zsh">oh-my-zsh&lt;/a> and &lt;a href="https://github.com/denysdovhan/spaceship-prompt">spaceship&lt;/a> theme&lt;/li>
+&lt;/ul>
+&lt;h2 id="configuration">
+Configuration
+&lt;a href="#configuration" class="h-anchor" aria-hidden="true">#&lt;/a>
+&lt;/h2>
+&lt;p>&lt;a href="https://github.com/trebaud/dotfiles">Here&lt;/a> you can find the different configuration files I use for the various tools listed above.&lt;/p></description></item><item><title>Implementing a Merkle tree in Python</title><link>https://trebaud.github.io/posts/merkle-tree/</link><pubDate>Sat, 06 Jan 2018 00:00:00 -0500</pubDate><guid>https://trebaud.github.io/posts/merkle-tree/</guid><description>
 Build a Merkle tree in Python</description></item><item><title>Typing Python with typing</title><link>https://trebaud.github.io/posts/typing-python/</link><pubDate>Wed, 27 Dec 2017 00:00:00 -0500</pubDate><guid>https://trebaud.github.io/posts/typing-python/</guid><description>
 Learn how to add types to your Python code</description></item><item><title/><link>https://trebaud.github.io/whoami/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://trebaud.github.io/whoami/</guid><description>
-👋 Hi I&amp;rsquo;m a software developer currently based in Montreal. I like to ship code for the web in a secure and reliable way.
-Here are some of things I&amp;rsquo;m currently interested in or learning about:
-🛡️ AppSec 🦾 LLM security and AI safety 🏗️ Building of RAG (Retrieval Augmented Generation) pipelines for LLM apps 🔐 Cryptography Feel free to contact me here: 📧
-Socials: Github Linkedin
-Presentations: Supply chain security, Vim</description></item></channel></rss>
+&lt;p>👋 Hi I&amp;rsquo;m a software developer currently based in Montreal. I like to ship code for the web in a secure and reliable way.&lt;/p>
+&lt;p>Here are some of things I&amp;rsquo;m currently interested in or learning about:&lt;/p>
+&lt;ul>
+&lt;li>🛡️ Application Security&lt;/li>
+&lt;li>🦾 AI safety&lt;/li>
+&lt;li>📈 Site Reliability Engineering&lt;/li>
+&lt;/ul>
+&lt;p>Socials: &lt;a href="https://github.com/trebaud">Github&lt;/a> &lt;a href="https://www.linkedin.com/in/thomas-rebaud-8017a168">Linkedin&lt;/a>&lt;/p>
+&lt;p>Presentations: &lt;a href="https://slides.com/thomasrebaud/code">Supply chain security&lt;/a>, &lt;a href="https://github.com/trebaud/presentations/blob/master/vim/vim.md">Vim&lt;/a>&lt;/p></description></item></channel></rss>
