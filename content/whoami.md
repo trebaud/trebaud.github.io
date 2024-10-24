@@ -2,12 +2,9 @@
 
 Here are some of things I'm currently interested in or learning about:
 
-- 🛡️ AppSec
-- 🦾 LLM security and AI safety
-- 🏗️ Building of RAG (Retrieval Augmented Generation) pipelines for LLM apps
-- 🔐 Cryptography
-
-Feel free to contact me here: [📧](mailto:rebaud.thomas@gmail.com)
+- 🛡️ Application Security
+- 🦾 AI safety
+- 📈 Site Reliability Engineering
 
 Socials: [Github](https://github.com/trebaud) [Linkedin](https://www.linkedin.com/in/thomas-rebaud-8017a168)
 
